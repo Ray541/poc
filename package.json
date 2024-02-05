@@ -1,0 +1,45 @@
+{
+  "name": "poc1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@uiw/react-watermark": "^1.0.0",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "file-saver": "^2.0.5",
+    "firebase": "^10.7.0",
+    "multer": "^1.4.5-lts.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-dom": "^18.2.0",
+    "react-loader-spinner": "^6.1.0",
+    "react-router": "^6.21.1",
+    "react-router-dom": "^6.22.0",
+    "styled-components": "^6.1.1",
+    "sweetalert2": "^11.10.1",
+    "twilio": "^4.19.3",
+    "watermarkjs": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "vite": "^5.0.0"
+  }
+}
